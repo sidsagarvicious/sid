@@ -1,0 +1,147 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Sagar Gurung</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-01-16T23:42:35+05:45</updated>
+  <author>
+    <name>Sagar Gurung</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
+  <rights> © 2025 Sagar Gurung </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>What is Insecure Direct Object References (IDOR)?</title>
+    <link href="http://localhost:4000/posts/ctf2/" rel="alternate" type="text/html" title="What is Insecure Direct Object References (IDOR)?" />
+    <published>2024-01-07T21:45:00+05:45</published>
+  
+    <updated>2024-01-07T21:45:00+05:45</updated>
+  
+    <id>http://localhost:4000/posts/ctf2/</id>
+    <content type="text/html" src="http://localhost:4000/posts/ctf2/" />
+    <author>
+      <name>Sagar Gurung</name>
+    </author>
+
+  
+    
+    <category term="Top 10 OWASP" />
+    
+  
+
+  <summary>IDOR: Insecure direct object references
+
+IDOR are the type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. The term IDOR was popularized by its appearance in the OWASP 2007 Top Ten. However, it is just one example of many access control implementation mistakes that can lead to access controls being circumvented. IDOR vulnerabi...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Write-up: XSS Playground</title>
+    <link href="http://localhost:4000/posts/ctf1/" rel="alternate" type="text/html" title="Write-up: XSS Playground" />
+    <published>2023-06-02T21:45:00+05:45</published>
+  
+    <updated>2023-06-02T21:45:00+05:45</updated>
+  
+    <id>http://localhost:4000/posts/ctf1/</id>
+    <content type="text/html" src="http://localhost:4000/posts/ctf1/" />
+    <author>
+      <name>Sagar Gurung</name>
+    </author>
+
+  
+    
+    <category term="CTF" />
+    
+  
+
+  <summary>first post
+
+Flag 1: Robots
+
+The first one was a nice easy find as a result of some basic enumeration.
+
+Looking in /robots.txt, I immediately spotted the flag:
+
+User-agent: *
+Disallow: /s3cr3t-ar3a
+Flag: flag{48104912-28b0-494a-9995-a203d1e261e7}
+
+Thanks very much to those who put the challenge together, I had a great time and learned a few new tricks! Also, I hate you just a little bit for flag...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Write-up: HackerOne #HackyHolidays CTF</title>
+    <link href="http://localhost:4000/posts/ctf0/" rel="alternate" type="text/html" title="Write-up: HackerOne #HackyHolidays CTF" />
+    <published>2023-06-02T21:45:00+05:45</published>
+  
+    <updated>2023-06-02T21:45:00+05:45</updated>
+  
+    <id>http://localhost:4000/posts/ctf0/</id>
+    <content type="text/html" src="http://localhost:4000/posts/ctf0/" />
+    <author>
+      <name>Sagar Gurung</name>
+    </author>
+
+  
+    
+    <category term="CTF" />
+    
+  
+
+  <summary>first post
+
+Flag 1: Robots
+
+The first one was a nice easy find as a result of some basic enumeration.
+
+Looking in /robots.txt, I immediately spotted the flag:
+
+User-agent: *
+Disallow: /s3cr3t-ar3a
+Flag: flag{48104912-28b0-494a-9995-a203d1e261e7}
+
+Thanks very much to those who put the challenge together, I had a great time and learned a few new tricks! Also, I hate you just a little bit for flag...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>What is Cross Site Request Forgery (CSRF)? </title>
+    <link href="http://localhost:4000/posts/ctf2-copy/" rel="alternate" type="text/html" title="What is Cross Site Request Forgery (CSRF)? " />
+    <published>2022-12-31T21:45:00+05:45</published>
+  
+    <updated>2022-12-31T21:45:00+05:45</updated>
+  
+    <id>http://localhost:4000/posts/ctf2-copy/</id>
+    <content type="text/html" src="http://localhost:4000/posts/ctf2-copy/" />
+    <author>
+      <name>Sagar Gurung</name>
+    </author>
+
+  
+    
+    <category term="Top 10 OWASP" />
+    
+  
+
+  <summary>Cross site request forgery (CSRF)
+
+This is a very common bug in web applications.</summary>
+
+  </entry>
+
+</feed>
+
+

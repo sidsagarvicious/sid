@@ -1,0 +1,72 @@
+[
+  
+  {
+    "title": "What is Insecure Direct Object References (IDOR)?",
+    "url": "/posts/ctf2/",
+    "categories": "Top 10 OWASP",
+    "tags": "Hackerone",
+    "date": "2024-01-07 21:45:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "IDOR: Insecure direct object referencesIDOR are the type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. The term IDOR was popul...",
+    "content": "IDOR: Insecure direct object referencesIDOR are the type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. The term IDOR was popularized by its appearance in the OWASP 2007 Top Ten. However, it is just one example of many access control implementation mistakes that can lead to access controls being circumvented. IDOR vulnerabilities are most commonly associated with horizontal privilege escalation, but they can also arise in relation to vertical privilege escalation.Common Example:IDOR vulnerability with direct reference to database objectsConsider a website that uses the following URL to access the customer account page, by retrieving information from the back-end database:     https://insecure-website.com/customer_account?customer_number=132355Here, the customer number is used directly as a record index in queries that are performed on the back-end database. If no other controls are in place, an attacker can simply modify the customer_number value, bypassing access controls to view the records of other customers. This is an example of an IDOR vulnerability leading to horizontal privilege escalation.An attacker might be able to perform horizontal and vertical privilege escalation by altering the user to one with additional privileges while bypassing access controls. Other possibilities include exploiting password leakage or modifying parameters once the attacker has landed in the user’s accounts page, for example."
+  },
+  
+  {
+    "title": "Write-up: XSS Playground",
+    "url": "/posts/ctf1/",
+    "categories": "CTF",
+    "tags": "Hacker101",
+    "date": "2023-06-02 21:45:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "first postFlag 1: RobotsThe first one was a nice easy find as a result of some basic enumeration.Looking in /robots.txt, I immediately spotted the flag:User-agent: *Disallow: /s3cr3t-ar3aFlag: flag...",
+    "content": "first postFlag 1: RobotsThe first one was a nice easy find as a result of some basic enumeration.Looking in /robots.txt, I immediately spotted the flag:User-agent: *Disallow: /s3cr3t-ar3aFlag: flag{48104912-28b0-494a-9995-a203d1e261e7}Thanks very much to those who put the challenge together, I had a great time and learned a few new tricks! Also, I hate you just a little bit for flag 11. &lt;3."
+  },
+  
+  {
+    "title": "Write-up: HackerOne #HackyHolidays CTF",
+    "url": "/posts/ctf0/",
+    "categories": "CTF",
+    "tags": "Hackerone",
+    "date": "2023-06-02 21:45:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "first postFlag 1: RobotsThe first one was a nice easy find as a result of some basic enumeration.Looking in /robots.txt, I immediately spotted the flag:User-agent: *Disallow: /s3cr3t-ar3aFlag: flag...",
+    "content": "first postFlag 1: RobotsThe first one was a nice easy find as a result of some basic enumeration.Looking in /robots.txt, I immediately spotted the flag:User-agent: *Disallow: /s3cr3t-ar3aFlag: flag{48104912-28b0-494a-9995-a203d1e261e7}Thanks very much to those who put the challenge together, I had a great time and learned a few new tricks! Also, I hate you just a little bit for flag 11. &lt;3."
+  },
+  
+  {
+    "title": "What is Cross Site Request Forgery (CSRF)? ",
+    "url": "/posts/ctf2-copy/",
+    "categories": "Top 10 OWASP",
+    "tags": "Hackerone",
+    "date": "2022-12-31 21:45:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Cross site request forgery (CSRF)This is a very common bug in web applications.",
+    "content": "Cross site request forgery (CSRF)This is a very common bug in web applications."
+  }
+  
+]
+
